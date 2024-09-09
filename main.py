@@ -28,7 +28,7 @@ about_message = """
 <b>• Language : Python3</b>
 <b>• Library : Pyrogram v{version}</b>
 <b>• Updates : <a href=https://t.me/+0OJG6q41y3gwNGNl>Click Here</a></b>
-<b>• Source Code : <a href=https://github.com/sujay53721>Click Here</a></b>"""
+<b>• Source Code : <a href=https://github.com/sujay75671>Click Here</a></b>"""
 
 @AutoCaptionBotV1.on_message(pyrogram.filters.private & pyrogram.filters.command(["start"]))
 def start_command(bot, update):
