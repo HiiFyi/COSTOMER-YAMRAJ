@@ -12,7 +12,7 @@ try: bot_token = os.environ.get("bot_token", "7307382466:AAEjQJy7e8wWreDozxcKn4V
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
 try: custom_caption = os.environ.get("custom_caption", """`• <b>•Join Us {file_name}</b>
 <b>╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗</b>
-<b>•  <a href=@yamrajbackup>Join Channel</a></b>
+<b>•  <a href=@yamrajbackup</a></b>
 <b>╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>`""")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
 
